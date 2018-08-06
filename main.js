@@ -13,7 +13,7 @@ define(function (require, exports, module) {
 		EditorManager = brackets.getModule("editor/EditorManager"),
 		MainViewManager = brackets.getModule("view/MainViewManager"),
 		Menus = brackets.getModule("command/Menus"),
-		bootstrapTemplate = require("text!template/start.html"),
+		bootstrapTemplate = require("text!template/starter.html"),
 		toolbar = $("#main-toolbar"),
 		menu;
 

@@ -8,5 +8,7 @@
     "license": "MIT",
     "engines": {
         "brackets": ">=1.0.0"
-    }
+    },
+
+    "keywords": ["html", "file", "maa", "skeleton", "generate", "starter", "starter"]
 }

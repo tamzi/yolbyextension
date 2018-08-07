@@ -13,7 +13,7 @@ define(function (require, exports, module) {
 		EditorManager = brackets.getModule("editor/EditorManager"),
 		MainViewManager = brackets.getModule("view/MainViewManager"),
 		Menus = brackets.getModule("command/Menus"),
-		bootstrapTemplate = require("text!template/starter.html"),
+		yolbyTemplate = require("text!template/starter.html"),
 		toolbar = $("#main-toolbar"),
 		menu;
 
@@ -30,7 +30,7 @@ define(function (require, exports, module) {
 		    doc = DocumentManager.createUntitledDocument(docIndex++, defaultExtension);
 
 		MainViewManager._edit(MainViewManager.ACTIVE_PANE, doc);
-		templateHandle(htmlTemplate);
+		templateHandle(yolbyTemplate);
 		return new $.Deferred().resolve(doc).promise();
 	}
 

@@ -5,7 +5,7 @@ define(function (require, exports, module) {
 	var docIndex = 1,
 	    commandId = "new-yolbydoc",
 	    menuID = "jt.menuID",
-	    menuLabel = "New HTML file",
+	    menuLabel = "New Yolby file",
 		DocumentManager = brackets.getModule("document/DocumentManager"),
 		Commands = brackets.getModule("command/Commands"),
 		CommandManager = brackets.getModule("command/CommandManager"),

@@ -3,7 +3,7 @@ define(function (require, exports, module) {
     	"use strict";
 
 	var docIndex = 1,
-	    commandId = "new-htmldoc",
+	    commandId = "new-yolbydoc",
 	    menuID = "jt.menuID",
 	    menuLabel = "New HTML file",
 		DocumentManager = brackets.getModule("document/DocumentManager"),

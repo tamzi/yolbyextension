@@ -1,14 +1,20 @@
 {
-    "name": "tfrank.maaextension",
-    "title": "MaaExtension",
-    "description": "A brackets extension thats saves your time by helping you quickly insert a html file from the maa framework.",
+    "name": "franktamre.yolby",
+    "title": "Yolby",
+    "description": "Quickly add a very detailed html page to your html project.",
     "homepage": "https://github.com/tamzi/maaextension",
     "version": "0.0.1",
-    "author": "Frank Tamre",
+    "author": "Frank Tamre <tamrefrank@gmail.com> (http://tamrefrank.com)",
     "license": "MIT",
     "engines": {
-        "brackets": ">=1.0.0"
+        "brackets": ">=0.24.0"
+    },
+    "i18n": [ "en", "fr"],
+    "package-i18n": {
+        "fr": {
+            "description": "Ajoutez rapidement une page HTML très détaillée à votre projet HTML."
+        }
     },
 
-    "keywords": ["html", "file", "maa", "skeleton", "generate", "starter", "starter"]
+    "keywords": ["html", "file", "maa", "yolby", "skeleton", "generate", "starter", "template"]
 }
